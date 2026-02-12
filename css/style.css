@@ -1,9 +1,46 @@
-h2{
-    background-color: blueviolet;
-    color: rgb(255, 255, 255);
+h2 {
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
 }
 
-p{
-    background-color: beige
-    ;
+p {
+  background-color: beige;
+}
+
+#nav:hover {
+  background-color: aquamarine;
+}
+
+#nav {
+  color: red;
+}
+
+h6 {
+  color: blueviolet;
+}
+
+#image-box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 20px;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+}
+
+#presentation-box {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  margin: 20px;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
 }
