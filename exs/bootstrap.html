@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Bootstrap Buttons Exercise</title>
-    <!--INCLUDING BOOTSTRAP-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <section>
-      <h1>Bad News</h1>
 
-      <div>You are going to die one day! It sucks, but it's normal :(</div>
+    <head>
+        <title>Bootstrap Buttons Exercise</title>
+        <!--INCLUDING BOOTSTRAP-->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    </head>
 
-      <button>Come To Terms With</button>
-      <button>Continue To Deny</button>
-    </section>
-  </body>
+    <body>
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-6 col-md-4 bg-secondary">
+                    <h1 class="text-light bg-dark text-center w-50">Bad
+                        News</h1>
+                </div>
+
+                <div class="alert alert-warning col-6 col-md-4" role="alert">You
+                    are going
+                    to die one day! It sucks, but it's normal :(
+
+                </div>
+
+                <div class="col bg-secondary">
+                    <button type="button" class="btn btn-success">Come To Terms
+                        With</button>
+                    <button type="button" class="btn btn-danger">Continue To
+                        Deny</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-10 col-md-4 bg-danger">
+                    <h5>A turma de Low Code vai aprender JS!</h5>
+                </div>
+                <div class="col"></div>
+
+            </div>
+
+
+            <div style="height: 200px; color: black;">&nbsp</div>
+
+
+
+
+            <div class="row">
+                <div class="col-6 col-md-4 bg-danger">One Third</div>
+                <div class="col-6 col-md-8 bg-info">Two Thirds</div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-md-3 bg-warning">One quarter</div>
+                <div class="col-4 col-md-6 bg-primary">One Half</div>
+                <div class="col-4 col-md-3 bg-warning">One quarter</div>
+
+            </div>
+
+        </section>
+    </body>
+
 </html>
