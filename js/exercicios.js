@@ -56,7 +56,7 @@ Fazer levantamentos: pergunte ao utilizador o valor a levantar. No final do leva
 Depositar dinheiro: lance um alerta a indicar 'depósito de 600euros efectuado!'
 Se for menor, mostre: "Acesso negado */
 
-let = userName = prompt('Qual é o seu nome?');
+let userName = prompt('Qual é o seu nome?');
 let idade = prompt('Qual é a sua idade?');
 
 if (idade >= 18) {
@@ -64,6 +64,9 @@ if (idade >= 18) {
 
     alert('Veja as opções do menu');   
     let opcao = prompt('Escolha uma opção: 1 - Ver saldo, 2 - Levantar dinheiro, 3 - Depositar dinheiro');
+
+
+    
     switch (opcao) {
         case '1':
             alert('Você tem 1.0000 de euros');
@@ -79,4 +82,7 @@ if (idade >= 18) {
             alert('Opção inválida');
     }
         
+        }
+        else {
+            alert('Sinto muito, ' + userName + '. Acesso negado.');
         }
