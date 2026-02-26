@@ -63,7 +63,6 @@ alert('olá sou um alerta!')
 console.log('estou loggado na consola e sou amigo dos programadores')
  */
 
-
 /* let userName = prompt('Qual é o seu nome?');
 
 console.log('olá programador ' + userName);
@@ -71,7 +70,6 @@ console.log('olá programador ' + userName);
 
 
 console.log("Olá " + firstName + " " + lastName); */
-
 
 /* switch (weekDay) {
   case "segunda":
@@ -104,15 +102,6 @@ console.log("Olá " + firstName + " " + lastName); */
 
  */
 
-
-
-
-
-
-
-
-
-
 /* let weekDay = prompt('Que dia da semana é hoje?').toLowerCase().trim();
 
 if (weekDay == 'segunda') {
@@ -128,3 +117,45 @@ if (weekDay == 'segunda') {
   alert("já faltou mais para o fim de semana");
 } */
 
+ //array de strings
+let alunos = ['Maria Cardoso', 'Bruno Azevedo', 'Beatriz Afonso'];
+
+/* 
+//array de números
+let notas = [20, 15, 9];
+ 
+//array com vários tipos de dados: string, número e boleano
+let mixedArray=['Cesae', 15, true];
+ 
+alert(alunos[2])
+ 
+alert(`a aluna ${alunos[2]} tem nota ${notas[2]}`);
+ 
+alunos[1] = 'Bruno Silva';
+alert(alunos);
+ 
+//perguntar ao user que index quer alterar
+let index = prompt('qual é o index a alterar?');
+ 
+//perguntar ao user o novo nome
+let newName = prompt('qual é o novo nome?');
+ 
+//alterar no array
+alunos[index] = newName;
+ 
+//mostrar a ver se está ok
+alert(alunos);
+ 
+//adicionar no fim do array
+alunos.push('Andreia Ricardo');
+alert(alunos);
+  */
+
+
+/* alunos.push('Andreia Ricardo');
+alert(alunos);
+
+//remover do início
+alunos.shift()
+alert(alunos);
+ */
