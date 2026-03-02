@@ -117,9 +117,9 @@ if (weekDay == 'segunda') {
   alert("já faltou mais para o fim de semana");
 } */
 
- //array de strings
-let alunos = ['Maria Cardoso', 'Bruno Azevedo', 'Beatriz Afonso'];
-
+//array de strings
+/* let alunos = ['Maria Cardoso', 'Bruno Azevedo', 'Beatriz Afonso'];
+ */
 /* 
 //array de números
 let notas = [20, 15, 9];
@@ -151,7 +151,6 @@ alunos.push('Andreia Ricardo');
 alert(alunos);
   */
 
-
 /* alunos.push('Andreia Ricardo');
 alert(alunos);
 
@@ -159,3 +158,25 @@ alert(alunos);
 alunos.shift()
 alert(alunos);
  */
+
+let course = {
+  cname: "Programador de Low Code",
+  responsible: "Inês Castro",
+  hours: 1100,
+  modules: ["Programação Web", "Algoritimia", "Inglês"],
+};
+
+course.hours = 1150;
+
+course.modules.push(prompt("Qual o módulo a acrescentar?"));
+
+alert("o curso de " + course.cname + " e tem " + course.hours + "h");
+
+alert(
+  "o curso de " +
+    course.cname +
+    " e tem " +
+    course.hours +
+    "h e o módulo mais importante é " +
+    course.modules[2],
+);
