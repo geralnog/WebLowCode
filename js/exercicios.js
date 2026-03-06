@@ -1,6 +1,6 @@
-function getRandomInt(max) {
+/* function getRandomInt(max) {
   return Math.floor(Math.random() * max);
-}
+} */
 
 /* let myLuckyNumber = 7;
 

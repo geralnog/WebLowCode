@@ -158,7 +158,7 @@ alert(alunos);
 alunos.shift()
 alert(alunos);
  */
-
+/* 
 let course = {
   cname: "Programador de Low Code",
   responsible: "Inês Castro",
@@ -179,4 +179,94 @@ alert(
     course.hours +
     "h e o módulo mais importante é " +
     course.modules[2],
-);
+); */
+
+/* 
+let codigo = 0;
+let lista = [];
+let item = '';
+ 
+while (codigo != 4) {
+    codigo = prompt ('Digite a opção desejada:\n1. Adicionar Item \n2. Remover Item \n3. Ver lista \n4. Sair');
+    switch (codigo) {
+        case '1':
+            alert('Opção 1 - Adicionar Item:');
+            item = prompt ('Digite o item que deseja adicionar:');
+            lista.push(item);
+            break;
+        case '2':
+            alert('Opção 2 - Remover Primeiro Item:');
+            lista.shift();
+            break;
+        case '3':
+            alert('Opção 3 - Listar Itens:');
+            alert(lista);
+            break;
+        case '4':
+            alert('Opção 4 - Sair');
+            break
+        default:
+            alert('Opção Inválida')
+    }
+} */
+
+/*     for(let count = 1; count<11; count++){
+  alert(count);
+}
+ 
+for(let count = 2; count<11; count= count+2){
+  alert(count);
+}
+ 
+
+let shoppingList = ['bananas', 'maçãs','salada'];
+ 
+ 
+let shoppingList = ['bananas', 'maçãs','salada'];
+alert('comprar '+shoppingList[0])
+alert('comprar '+shoppingList[1])
+alert('comprar '+shoppingList[2])
+ 
+for(let count=0; count<shoppingList.length;count++){
+  alert('comprar '+shoppingList[count])
+}
+ 
+ 
+for(let element of shoppingList){
+  alert('comprar '+element)
+}
+ 
+  */
+
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+
+/* //funções
+alert('hello world!');
+ 
+//funções
+function hello() {
+  alert("hello world!");
+}
+  */
+
+/* document.getElementById('button_heart').onclick = function(){
+window.alert('Hello ♥');
+}
+
+ */
+
+/* let rant = function() {
+  document.getElementById('button_heart').addEventListener('click', function() {
+      console.log("I hate everything!");
+  });
+};
+
+rant();
+ */
+
+
+function rant(rant, numTimes) {
+    for (let i = 0; i < numTimes; i++) {
+        alert(('odeio ' + rant).toUpperCase())
+    }
+}
